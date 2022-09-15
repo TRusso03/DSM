@@ -100,17 +100,20 @@ h6 {
   line-height: 1;
   font-weight: 400;
   letter-spacing: 2px;
+  white-space: nowrap;
 }
 
 #header .logo h1 a,
 #header .logo h1 a:hover {
   color: #5777ba;
   text-decoration: none;
+  white-space: nowrap;
 }
 
 #header .logo img {
   margin: 0;
   max-height: 90px;
+  white-space: nowrap;
 }
 
 /*--------------------------------------------------------------
