@@ -680,10 +680,12 @@ section {
   overflow: hidden;
 }
     .swiper-slide{
-      background: grey;
+      background: black;
       display: flex;
       justify-content: center;
       align-items: center;
+      font-size: 60px;
+      color: white;
 
     }
 

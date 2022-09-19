@@ -227,12 +227,17 @@
   });
 
   /**
-   * hero slider
+   * Hero slider
    */
 
    new Swiper('.hero-swiper', {
     // Optional parameters
-   
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction: false,
+    },
+
+    loop: true,
   
     // If we need pagination
     pagination: {
