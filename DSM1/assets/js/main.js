@@ -227,6 +227,31 @@
   });
 
   /**
+   * hero slider
+   */
+
+   new Swiper('.hero-swiper', {
+    // Optional parameters
+   
+  
+    // If we need pagination
+    pagination: {
+      el: '.swiper-pagination',
+    },
+  
+    // Navigation arrows
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  
+    // And if we need scrollbar
+    scrollbar: {
+      el: '.swiper-scrollbar',
+    },
+  });
+
+  /**
    * Animation on scroll
    */
   window.addEventListener('load', () => {

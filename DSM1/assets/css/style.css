@@ -672,6 +672,24 @@ section {
 }
 
 /*--------------------------------------------------------------
+# Hero gallery
+--------------------------------------------------------------*/
+.hero-swiper {
+  height: 400px;
+  width: 100%;
+  overflow: hidden;
+}
+    .swiper-slide{
+      background: grey;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+    }
+
+
+
+/*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
 .testimonials .testimonials-carousel,
